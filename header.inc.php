@@ -35,9 +35,12 @@
 	        </div>
 	    </div>
 	    <div class="navbar">
-	    	<div class="navbar-inner nav-ga">
+	    	<div class="navbar-inner nav-ga" style="height:20px;">
 	    		<div class="container">
-	    			<h4>::Gerenciador Administrativo (GA)</h4>
+	    			<ul class="breadcrumb-ga">
+						<li><a href="#">Página Inicial</a> <span class="divider">/</span></li>
+						<li class="active"><?php echo $config['titulo']; ?></li>
+					</ul>
 	    		</div>
 	    	</div>
 	    </div>

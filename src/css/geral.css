@@ -21,3 +21,11 @@
 	height:30px;
 	padding:5px;
 }
+.breadcrumb-ga {
+	display: inline-block;
+
+}
+.breadcrumb-ga li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
