@@ -35,10 +35,10 @@
 	        </div>
 	    </div>
 	    <div class="navbar">
-	    	<div class="navbar-inner nav-ga" style="height:20px;">
+	    	<div class="navbar-inner nav-ga" style="min-height:30px; height:30px;">
 	    		<div class="container">
-	    			<ul class="breadcrumb-ga">
-						<li><a href="#">Página Inicial</a> <span class="divider">/</span></li>
+	    			<ul class="breadcrumb">
+						<li><a href="./">Página Inicial</a> <span class="divider">/</span></li>
 						<li class="active"><?php echo $config['titulo']; ?></li>
 					</ul>
 	    		</div>

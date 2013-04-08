@@ -5,8 +5,25 @@
 .altura {
 	height:200px;
 }
+/* Estilos sobrescritos */
 
+.breadcrumb {
+	background: #666 !important;
+	color:#fff !important;
+	padding:6px 0 0 0;
+}
 
+.breadcrumb>li {
+	display: inline-block;
+	text-shadow: none;
+}
+.breadcrumb>li a {
+	color: #fff;
+}
+
+.breadcrumb>.active {
+	color: #E6E6E6;
+}
 /* Estilos personalizados do site */
 .nav-ga {
 	background: #666;
@@ -21,11 +38,7 @@
 	height:30px;
 	padding:5px;
 }
-.breadcrumb-ga {
-	display: inline-block;
 
-}
-.breadcrumb-ga li {
-	display: list-item;
-	text-align: -webkit-match-parent;
+hr {
+	border: 1px #E6E6E6 solid;
 }
