@@ -32,4 +32,3 @@ include("sidebar.inc.php");
 <?php
 //Inclui a página de rodapé
 include("footer.inc.php");
-?>
