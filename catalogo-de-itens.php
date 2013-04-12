@@ -1,5 +1,5 @@
 <?php
-$config['titulo'] = "Fornecedores";
+$config['titulo'] = "Catálogo de Itens";
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,7 +9,7 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Fornecedores</h3>
+		<h3>Catálogo de Itens</h3>
 		<div class="input-append pull-right" style="margin-top:-46px;">
 			<input class="span2" id="appendedInputButton" type="text">
 			<button class="btn" type="button"><i class="icon-search"></i></button>
@@ -19,31 +19,31 @@ include("sidebar.inc.php");
 		<ul class="media-list">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="media-heading">3TEC LTDA</h4>
-						CNPJ: 00.329.754/0001-90<br />
-						Telefone: (31) 3194-358500<br />
-						Ramo de Atuação: Móveis de Escritório<br />
-						Código do Fornecedor: 295<br />
+					<h4 class="media-heading">ESTABILIZADOR DE ENERGIA</h4>
+						Código: 41452<br />
+						Categoria: Material de Consumo (Informática)<br />
+						Item com contrato de Fornecimento: <span class="label label-success">SIM</span><br />
+						Situação no Estoque: <span class="label label-important">NÃO DISPONÍVEL</span><br />
 				</div>
 			</li>
 			<hr>
 			<li class="media">
 				<div class="media-body">
-					<h4 class="media-heading">ABS Industria de Bombas Centrifugas LTDA</h4>
-						CNPJ: 77.153.260/0001-21<br />
-						Telefone: (27) 3324-3599<br />
-						Ramo de Atuação: Bombas Hidráulicas<br />
-						Código do Fornecedor: 20<br />
+					<h4 class="media-heading">PASSAGENS RODOVIÁRIAS</h4>
+						Código: 12932<br />
+						Categoria: Despesa com Viagens<br />
+						Item com contrato de Fornecimento: <span class="label label-important">NÃO</span><br />
+						Situação no Estoque: <span class="label label-success">DISPONÍVEL</span><br />
 				</div>
 			</li>
 			<hr>
 			<li class="media">
 				<div class="media-body">
-					<h4 class="media-heading">ACIMAQ Equipamentos Industriais e Comercialização LTDA</h4>
-						CNPJ: 31.780.992/0001-40<br />
-						Telefone: (27) 2124-5444<br />
-						Ramo de Atuação: Informática<br />
-						Código do Fornecedor: 244<br />
+					<h4 class="media-heading">PASSAGENS RODOVIÁRIAS</h4>
+						Código: 12932<br />
+						Categoria: Despesa com Viagens<br />
+						Item com contrato de Fornecimento: <span class="label label-important">NÃO</span><br />
+						Situação no Estoque: <span class="label label-success">DISPONÍVEL</span><br />
 				</div>
 			</li>
 			<hr>

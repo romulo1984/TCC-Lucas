@@ -7,9 +7,9 @@ include("header.inc.php");
 include("sidebar.inc.php");
 ?>
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
-<div class="span8 conteudo">
+<div class="span9 conteudo">
 	<div class="page-header">
-		<h1>Lista <small>Comunicações Internas</small></h1>
+		<h3>Lista de Comunicações Internas</h3>
 		<div class="input-append pull-right" style="margin-top:-46px;">
 			<input class="span2" id="appendedInputButton" type="text">
 			<button class="btn" type="button"><i class="icon-search"></i></button>
@@ -25,8 +25,8 @@ include("sidebar.inc.php");
 						Data e hora de emissão: 11/02/13 às 14:45<br />
 				</div>
 				<div class="btn-group pull-right" style="margin-top:-34px;">
-					<a class="btn" href="#"><i class="icon-edit"></i> Editar</a>
-					<a class="btn" href="#"><i class="icon-search"></i> Vizualizar</a>
+					<a class="btn" href="./editar-comunicacao-interna.php?assunto=Contratação de Estagiário&conteudo=Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, est, itaque tempore quis ipsam tenetur reprehenderit aliquam doloremque asperiores placeat voluptatum quasi magni sunt repellendus molestias fuga dolorem quas quidem."><i class="icon-edit"></i> Editar</a>
+					<a class="btn" href="./src/img/comunicacao_interna_print.pdf" target="_blank"><i class="icon-search"></i> Visualizar</a>
 					<a class="btn btn-danger" href="#excluir-ci" role="button" data-toggle="modal"><i class="icon-remove icon-white"></i> Excluir</a>
 				</div>
 			</li>
@@ -39,8 +39,8 @@ include("sidebar.inc.php");
 						Data e hora de emissão: 11/02/13 às 14:45<br />
 				</div>
 				<div class="btn-group pull-right" style="margin-top:-34px;">
-					<a class="btn" href="#"><i class="icon-edit"></i> Editar</a>
-					<a class="btn" href="#"><i class="icon-search"></i> Vizualizar</a>
+					<a class="btn" href="./editar-comunicacao-interna.php?assunto=Contratação de Estagiário&conteudo=Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, est, itaque tempore quis ipsam tenetur reprehenderit aliquam doloremque asperiores placeat voluptatum quasi magni sunt repellendus molestias fuga dolorem quas quidem."><i class="icon-edit"></i> Editar</a>
+					<a class="btn" href="./src/img/comunicacao_interna_print.pdf" target="_blank"><i class="icon-search"></i> Visualizar</a>
 					<a class="btn btn-danger" href="#excluir-ci" role="button" data-toggle="modal"><i class="icon-remove icon-white"></i> Excluir</a>
 				</div>
 			</li>
@@ -53,8 +53,8 @@ include("sidebar.inc.php");
 						Data e hora de emissão: 11/02/13 às 14:45<br />
 				</div>
 				<div class="btn-group pull-right" style="margin-top:-34px;">
-					<a class="btn" href="#"><i class="icon-edit"></i> Editar</a>
-					<a class="btn" href="#"><i class="icon-search"></i> Vizualizar</a>
+					<a class="btn" href="./editar-comunicacao-interna.php?assunto=Contratação de Estagiário&conteudo=Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, est, itaque tempore quis ipsam tenetur reprehenderit aliquam doloremque asperiores placeat voluptatum quasi magni sunt repellendus molestias fuga dolorem quas quidem."><i class="icon-edit"></i> Editar</a>
+					<a class="btn" href="./src/img/comunicacao_interna_print.pdf" target="_blank"><i class="icon-search"></i> Visualizar</a>
 					<a class="btn btn-danger" href="#excluir-ci" role="button" data-toggle="modal"><i class="icon-remove icon-white"></i> Excluir</a>
 				</div>
 			</li>

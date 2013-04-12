@@ -1,5 +1,8 @@
 <?php
-$config['titulo'] = "Criar Comunicação Interna";
+$config['titulo'] = "Editar Comunicação Interna";
+
+$assunto = $_GET['assunto'];
+$conteudo = $_GET['conteudo'];;
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,7 +12,7 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Criar Comunicação Interna</h3>
+		<h3>Editar Comunicação Interna</h3>
 	</div>
 	<div class="well">
 		<form>
@@ -21,10 +24,10 @@ include("sidebar.inc.php");
 			</select>
 			<br /><br />
 			<label>Assunto:</label>
-			<input type="text" placeholder="Digite aqui o Assunto"/>
+			<input type="text" placeholder="Digite aqui o Assunto" value="<?php echo $assunto; ?>"/>
 			<br /><br />
 			<label>Conteúdo:</label>
-			<textarea rows="8" class="input-xxlarge"></textarea>
+			<textarea rows="8" class="input-xxlarge"><?php echo $conteudo; ?></textarea>
 			<br /><br />
 			<button class="btn" type="reset">Limpar</button>
 			<button class="btn btn-primary" type="button" onclick="javascript:alert('A CI foi criada com êxito!')">Finalizar</button>

@@ -7,7 +7,7 @@ include("header.inc.php");
 include("sidebar.inc.php");
 ?>
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
-<div class="span8 conteudo">
+<div class="span9 conteudo">
 	<div class="page-header">
 		<h1>Siga-me</h1>
 	</div>

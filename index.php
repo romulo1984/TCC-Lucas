@@ -7,9 +7,9 @@ include("header.inc.php");
 include("sidebar.inc.php");
 ?>
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
-<div class="span8 conteudo">
+<div class="span9 conteudo">
 	<div class="page-header">
-		<h1>Página inicial <small>Algum texto aqui</small></h1>
+		<h3>Página inicial</h3>
 	</div>
 	<div class="well">
 		<h4>CI - Comunicação Interna</h4>

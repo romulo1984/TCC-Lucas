@@ -11,17 +11,18 @@
   </head>
   <body>
   	<div class="navbar navbar-fixed-top">
-	    <div class="navbar-inner">
-	        <div class="container">
+	    <div class="navbar-inner" style="background: #ccc;">
+	        <div class="container bg_topo">
 		        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		        </a>
 		        <a class="brand" href="./"><img src="src/img/logo.png"/></a>
+		        <div class="nome_sistema_topo"></div>
 				<ul style="margin-top: 10px;" class="nav pull-right">
 					<div class="media">
-						<img class="media-object pull-right" src="src/img/foto_vazio.jpg">
+						<img class="media-object pull-right" src="src/img/foto_vazio.png">
 						<div class="media-body" style="text-align:right;">
 							<h4 class="media-heading">Pedro Fonseca</h4>
 							<span>
@@ -38,8 +39,15 @@
 	    	<div class="navbar-inner nav-ga" style="min-height:30px; height:30px;">
 	    		<div class="container">
 	    			<ul class="breadcrumb">
-						<li><a href="./">Página Inicial</a> <span class="divider">/</span></li>
-						<li class="active"><?php echo $config['titulo']; ?></li>
+						<li><a href="./">Página Inicial</a> </li>
+						<li class="active">
+							<?php
+							if($config['titulo'] != "Página Inicial"){
+								echo "<span class='divider'>/</span>";
+								echo $config['titulo'];
+							}
+							?>
+						</li>
 					</ul>
 	    		</div>
 	    	</div>
