@@ -1,5 +1,5 @@
 <?php
-$config['titulo'] = "Portaria / Cadastrar Portaria";
+$config['titulo'] = "Área Restrita / Usuários / Cadastrar Usuário";
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,42 +9,42 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Cadastrar Portaria</h3>
+		<h3>Cadastrar Usuário</h3>
 	</div>
 	<div class="well">
 		<form>
-			Número da Portaria<br />
-			<input type="text" placeholder="Digite aqui o número da portaria"/><br /><br />
+			Número da Matrícula<br />
+			<input type="text" placeholder="Digite aqui o número da matrícula"/><br /><br />
 
-			Ano da Portaria:<br />
+			Nome do Usuário<br />
+			<input type="text" placeholder="Digite aqui o nome do usuário"/><br /><br />
+
+			Nível Funcional:<br />
 			<select>
-				<option>2013</option>
-				<option>2012</option>
-				<option>2011</option>
-				<option>2010</option>
-				<option>2009</option>
-				<option>2008</option>
-			</select><br /><br />
+				<option>Administrador do Sistema</option>
+				<option>Administrador NSP</option>
+				<option>Operacional</option>
+			</select> <a data-toggle="modal" href="./niveis-funcionais.php" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
 
-			Tipo da Portaria:<br />
+			Unidade Administrativa:<br />
 			<select>
-				<option>Revogação</option>
-				<option>Não lembro</option>
-				<option>Depois eu coloco</option>
-			</select> <a data-toggle="modal" href="#add-novo" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
+				<option>Núcleo da Tecnologia da Informação</option>
+				<option>Núcleo de Serviços e Protocolos</option>
+				<option>Núcleo Financeiro Contábil</option>
+			</select> <a data-toggle="modal" href="./unidades-administrativas.php" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
 
-			Data de Publicação da Portaria<br />
-			<input type="text" placeholder="Digite aqui a data de publicação da portaria"/><br /><br />
-
-			Arquivo da Portaria Digitalizado:<br />
+			Foto:<br />
 			<input type="file" /><br /><br />
 
-			Resumo da Portaria:<br />
-			<textarea rows="8" class="input-xxlarge"></textarea>
+			Senha:<br />
+			<input type="password"/><br /><br />
+
+			Confirmar Senha:<br />
+			<input type="password"/><br /><br />
 			
 			<br /><br />
 			<button class="btn" type="reset">Limpar</button>
-			<button class="btn btn-primary" type="button" onclick="javascript:alert('A Portaria foi cadastrada com êxito!')">Cadastrar</button>
+			<button class="btn btn-primary" type="button" onclick="javascript:alert('O Usuário foi cadastrado com êxito!')">Cadastrar</button>
 		</form>
 	</div>
 </div>

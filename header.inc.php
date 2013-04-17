@@ -28,7 +28,7 @@
 							<span>
 								Matricula: G00052<br />
 								Núcleo da Tecnologia da Informação<br />
-								<a href="#">Alterar Senha</a>
+								<a href="./alterar-senha.php">Alterar Senha</a>
 							</span>
 						</div>
 					</div>

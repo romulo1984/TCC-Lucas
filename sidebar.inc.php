@@ -15,7 +15,7 @@
 		<li><a href="./portarias.php">Portarias</a></li>
 		<li><a href="./catalogo-de-itens.php">Catálogo de Itens</a></li>
 		<li><a href="./fornecedores.php">Fornecedores</a></li>
-		<li><a href="#">Área Restrita (Adm)</a></li>
-		<li><a href="#">Sair (logout)</a></li>
+		<li><a href="./adm.php">Área Restrita (Adm)</a></li>
+		<li><a href="./login.php">Sair (logout)</a></li>
 	</ul>
 </div>

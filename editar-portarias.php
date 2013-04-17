@@ -1,5 +1,9 @@
 <?php
-$config['titulo'] = "Portaria / Cadastrar Portaria";
+$config['titulo'] = "Portaria / Editar Portaria";
+
+$numero = $_GET['numero'];
+$data = $_GET['data'];
+$resumo = $_GET['resumo'];
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,12 +13,12 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Cadastrar Portaria</h3>
+		<h3>Editar Portaria</h3>
 	</div>
 	<div class="well">
 		<form>
 			Número da Portaria<br />
-			<input type="text" placeholder="Digite aqui o número da portaria"/><br /><br />
+			<input type="text" placeholder="Digite aqui o número da portaria" value="<?php echo $numero; ?>"/><br /><br />
 
 			Ano da Portaria:<br />
 			<select>
@@ -34,13 +38,13 @@ include("sidebar.inc.php");
 			</select> <a data-toggle="modal" href="#add-novo" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
 
 			Data de Publicação da Portaria<br />
-			<input type="text" placeholder="Digite aqui a data de publicação da portaria"/><br /><br />
+			<input type="text" placeholder="Digite aqui a data de publicação da portaria" value="<?php echo $data; ?>"/><br /><br />
 
 			Arquivo da Portaria Digitalizado:<br />
 			<input type="file" /><br /><br />
 
 			Resumo da Portaria:<br />
-			<textarea rows="8" class="input-xxlarge"></textarea>
+			<textarea rows="8" class="input-xxlarge"><?php echo $resumo; ?></textarea>
 			
 			<br /><br />
 			<button class="btn" type="reset">Limpar</button>

@@ -2,7 +2,7 @@
 $config['titulo'] = "Editar Comunicação Interna";
 
 $assunto = $_GET['assunto'];
-$conteudo = $_GET['conteudo'];;
+$conteudo = $_GET['conteudo'];
 
 //Inclui a página de cabeçalho
 include("header.inc.php");

@@ -27,7 +27,7 @@ include("sidebar.inc.php");
 			<textarea rows="8" class="input-xxlarge"></textarea>
 			<br /><br />
 			<button class="btn" type="reset">Limpar</button>
-			<button class="btn btn-primary" type="button" onclick="javascript:alert('A CI foi criada com êxito!')">Finalizar</button>
+			<button class="btn btn-primary" type="button" onclick="javascript:alert('A CI foi criada com êxito!'); window.location = './src/img/comunicacao_interna_print.pdf'">Finalizar</button>
 		</form>
 	</div>
 </div>

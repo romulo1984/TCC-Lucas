@@ -1,5 +1,5 @@
 <?php
-$config['titulo'] = "Portaria / Cadastrar Portaria";
+$config['titulo'] = "Siga-me / RME";
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,42 +9,46 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Cadastrar Portaria</h3>
+		<h3>RME</h3>
 	</div>
 	<div class="well">
 		<form>
-			Número da Portaria<br />
-			<input type="text" placeholder="Digite aqui o número da portaria"/><br /><br />
-
-			Ano da Portaria:<br />
-			<select>
-				<option>2013</option>
-				<option>2012</option>
-				<option>2011</option>
-				<option>2010</option>
-				<option>2009</option>
-				<option>2008</option>
-			</select><br /><br />
-
-			Tipo da Portaria:<br />
-			<select>
-				<option>Revogação</option>
-				<option>Não lembro</option>
-				<option>Depois eu coloco</option>
-			</select> <a data-toggle="modal" href="#add-novo" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
-
-			Data de Publicação da Portaria<br />
-			<input type="text" placeholder="Digite aqui a data de publicação da portaria"/><br /><br />
-
-			Arquivo da Portaria Digitalizado:<br />
-			<input type="file" /><br /><br />
-
-			Resumo da Portaria:<br />
+			Justificativa<br />
 			<textarea rows="8" class="input-xxlarge"></textarea>
+			<br /><br />
+			<a href="./add-catalogo-de-itens.php" class="btn btn-medium" type="button>Inserir Item"><i class="icon-shopping-cart"></i> Inserir Item</a><br /><br />
+			<table class="table table-condensed">
+		    	<thead>
+					<tr>
+						<th>Código</th>
+						<th>Item</th>
+						<th>Quantidade</th>
+						<th>Ações</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>41452</td>
+						<td>Estabilizador de Energia</td>
+						<td><input type="text" value="5"/></td>
+						<td>
+							<a class="btn btn-small btn-danger" role="button"><i class="icon-remove icon-white"></i> Excluir</a>
+						</td>
+					</tr>
+					<tr>
+						<td>41412</td>
+						<td>Passagens Rodoviárias</td>
+						<td><input type="text" value="5"/></td>
+						<td>
+							<a class="btn btn-small btn-danger" role="button"><i class="icon-remove icon-white"></i> Excluir</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
 			
 			<br /><br />
-			<button class="btn" type="reset">Limpar</button>
-			<button class="btn btn-primary" type="button" onclick="javascript:alert('A Portaria foi cadastrada com êxito!')">Cadastrar</button>
+			<button class="btn btn-primary" type="button" onclick="javascript:alert('A RME foi cadastrada com êxito!'); window.open('./src/img/comunicacao_interna_print.pdf')">Cadastrar</button>
 		</form>
 	</div>
 </div>

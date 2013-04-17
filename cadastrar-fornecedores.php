@@ -1,5 +1,5 @@
 <?php
-$config['titulo'] = "Portaria / Cadastrar Portaria";
+$config['titulo'] = "Siga-me / Cadastrar Fornecedores";
 
 //Inclui a página de cabeçalho
 include("header.inc.php");
@@ -9,42 +9,26 @@ include("sidebar.inc.php");
 <!-- CONTEÚDO SEMPRE DAQUI PRA BAIXO-->
 <div class="span9 conteudo">
 	<div class="page-header">
-		<h3>Cadastrar Portaria</h3>
+		<h3>Cadastrar Fornecedores</h3>
 	</div>
 	<div class="well">
 		<form>
-			Número da Portaria<br />
-			<input type="text" placeholder="Digite aqui o número da portaria"/><br /><br />
+			Nome Fantasia<br />
+			<input type="text" placeholder="Digite aqui o nome fantasia"/><br /><br />
 
-			Ano da Portaria:<br />
-			<select>
-				<option>2013</option>
-				<option>2012</option>
-				<option>2011</option>
-				<option>2010</option>
-				<option>2009</option>
-				<option>2008</option>
-			</select><br /><br />
+			CNPJ<br />
+			<input type="text" placeholder="Digite aqui o CNPJ"/><br /><br />
 
-			Tipo da Portaria:<br />
-			<select>
-				<option>Revogação</option>
-				<option>Não lembro</option>
-				<option>Depois eu coloco</option>
-			</select> <a data-toggle="modal" href="#add-novo" class="btn btn-small" style="margin:0 0 10px 0;"><i class="icon-edit"></i> Add Novo</a><br /><br />
+			Tipo de Atividade<br />
+			<input type="text" placeholder="Digite aqui o tipo de atividade"/><br /><br />
 
-			Data de Publicação da Portaria<br />
-			<input type="text" placeholder="Digite aqui a data de publicação da portaria"/><br /><br />
+			Telefone<br />
+			<input type="text" placeholder="Digite aqui o telefone"/><br /><br />
 
-			Arquivo da Portaria Digitalizado:<br />
-			<input type="file" /><br /><br />
-
-			Resumo da Portaria:<br />
-			<textarea rows="8" class="input-xxlarge"></textarea>
 			
 			<br /><br />
 			<button class="btn" type="reset">Limpar</button>
-			<button class="btn btn-primary" type="button" onclick="javascript:alert('A Portaria foi cadastrada com êxito!')">Cadastrar</button>
+			<button class="btn btn-primary" type="button" onclick="javascript:alert('O Fornecedor foi cadastrado com êxito!'); window.location = './adm-fornecedores.php';">Cadastrar</button>
 		</form>
 	</div>
 </div>
